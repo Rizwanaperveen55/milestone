@@ -1,0 +1,84 @@
+/* Global styles */
+body {
+    font-family: "Times New Roman", Times, serif;
+    background: linear-gradient(to right, #6a11cb, #feb47b);
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+    color: #0b0202;
+    font-weight: bold;
+    font-size: 3rem;
+    margin: 20px 0;
+}
+
+/* Form styling */
+form {
+    background-color: #e5bdbd;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    border: 40px solid rgb(118, 106, 185); /* Corrected border */
+    margin: 20px auto;
+    max-width: 1200px;
+    padding: 20px;
+}
+
+fieldset {
+    border: 2px solid #8746b0;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    margin-top: 40px;
+    background-color: aliceblue;
+}
+
+legend {
+    text-align: left;
+    font-weight: bold;
+    color: black;
+    width: 100%;
+    font-size: 30px;
+}
+
+label {
+    color: #333;
+    display: block;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 4px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+
+input:focus, textarea:focus {
+    outline: none;
+    border-color: #5e35b1;
+}
+
+button {
+    background-color: #7b5eb5;
+    padding: 10px;
+    cursor: pointer;
+    display: block;
+    width: 100%;
+    border-radius: 4px;
+    color: white;
+    border: none;
+    font-size: 1.5rem;
+    margin-top: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+button:hover {
+    background-color: #4b14ef;
+}
